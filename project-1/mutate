@@ -7,3 +7,7 @@ echo "Hello $1" > hello.txt
 
 git add hello.txt
 git commit -m "[course staff] Project 1"
+
+# the git commit might fail if it's empty, so we'll just say that if we got to
+# this point we can return 0
+exit 0
