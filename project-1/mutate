@@ -3,4 +3,7 @@ echo "Mutating!!!!!"
 
 echo $@
 
-ls
+echo "Hello $1" > hello.txt 
+
+git add hello.txt
+git commit -m "[course staff] Project 1"
